@@ -1,0 +1,7 @@
+@import 'base/mixin';
+.container {
+    @include form()
+}
+body{
+    @include body()
+}

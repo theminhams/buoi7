@@ -1,0 +1,59 @@
+@mixin form{
+    input{
+        border: none;
+        padding: 10px;
+        background-color: whitesmoke;
+        margin: 4px 0px 4px 0px;
+    }
+    button {
+        border: 2px solid yellow;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 5px;
+        width: 100px;
+        display: flex;
+        justify-self: end;
+        align-self: center;
+        justify-content: center;
+        background-color: yellowgreen;
+    }
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        width: 40vw;
+        height: 60vh;
+        padding: 20px;
+        border: 5px solid green;
+        border-radius: 10px;
+}
+@mixin body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+}
+@mixin trangchu{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+        border: 2px solid yellow;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 5px;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80px;
+        background-color: yellowgreen;
+    }
+}
